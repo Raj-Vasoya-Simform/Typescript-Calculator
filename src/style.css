@@ -1,0 +1,228 @@
+h1 {
+  text-align: center;
+  margin-right: 130px;
+}
+.calculator {
+  /* max-width: 38.25rem; */
+  max-width: 612px;
+  margin: 10px auto;
+  margin-top: 50px;
+}
+#output {
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: 80px;
+  font-size: 48px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 0px 10px 0px 10px;
+  box-shadow: 0px 0px 30px -5px #fff;
+  box-sizing: border-box;
+}
+#buttons {
+  margin-top: 50px;
+}
+
+#fun {
+  width: 253px;
+}
+
+#clear {
+  background-color: red;
+}
+/* #backspace {
+  background-color: red;
+} */
+
+.fun {
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  display: inline-block;
+  border: 1px solid #33ccff;
+  height: 70px;
+  width: 100px;
+  font-size: 36px;
+  margin-right: -4.6px;
+  cursor: pointer;
+}
+.button {
+  color: black;
+  text-align: center;
+  line-height: 70px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #33ccff;
+  height: 65px;
+  width: 100px;
+  font-size: 36px;
+  margin-right: -4.6px;
+  cursor: pointer;
+}
+.row2 {
+  float: right;
+}
+.row1 {
+  float: left;
+}
+.button:hover {
+  background-color: aqua;
+  box-shadow: 0px 0px 30px 0px aqua;
+}
+#decimal {
+  font-weight: bold;
+}
+#equals {
+  background-color: green;
+}
+
+#backspace:hover {
+  background-color: red;
+}
+
+#id0 {
+  background-color: rgb(225, 221, 221);
+}
+
+#id1 {
+  background-color: rgb(225, 221, 221);
+}
+
+#id2 {
+  background-color: rgb(225, 221, 221);
+}
+
+#id3 {
+  background-color: rgb(225, 221, 221);
+}
+#id4 {
+  background-color: rgb(225, 221, 221);
+}
+
+#id5 {
+  background-color: rgb(225, 221, 221);
+}
+
+#id6 {
+  background-color: rgb(225, 221, 221);
+}
+#id7 {
+  background-color: rgb(225, 221, 221);
+}
+
+#id8 {
+  background-color: rgb(225, 221, 221);
+}
+
+#id9 {
+  background-color: rgb(225, 221, 221);
+}
+#deg {
+  width: 168px;
+}
+#rad {
+  width: 168px;
+}
+#fe {
+  width: 168px;
+}
+
+/* Trigonometry Dropdown */
+.dropbtn {
+  background-color: rgb(205, 202, 202);
+  color: black;
+  padding: 17.5px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 255px;
+  border: 1px solid #33ccff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  top: 0%;
+  left: -40%;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  height: 80px;
+  box-shadow: 0px 0px 30px -5px #fff;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  display: inline-flexbox;
+  background-color: skyblue;
+  border: white solid 3px;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(205, 202, 202);
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: aqua;
+}
+
+/*Function Dropdown*/
+
+.dropbtn1 {
+  background-color: rgb(205, 202, 202);
+  color: black;
+  padding: 17.5px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 252px;
+  border: 1px solid #33ccff;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  height: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  text-decoration: none;
+  display: inline-flexbox;
+  background-color: skyblue;
+  border: white solid 3px;
+}
+
+.dropdown-content1 a:hover {
+  background-color: rgb(205, 202, 202);
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: inline-block;
+}
+
+.dropdown1:hover .dropbtn1 {
+  background-color: aqua;
+}
